@@ -14,4 +14,4 @@ class LogoutView(views.LogoutView):
         return redirect('/')
 
 class SignupView(views.SignupView):
-    template_name = 'account/signup.html'
+    template_name = 'accounts/signup.html'
